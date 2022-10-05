@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Document</title>
+</head>
+<body>
+    <script>
+console.log('Wiadomość');
+ console.log("Informacja");
+ console.log("Bląad");
+ console.log("Ostrz....");
+ console.log(window);
+ console.log(window.outerHeight);
+ console.log(document);
+ console.log(document.body);
+
+ var pusta = null 
+ console.log("zmienna pusta(null):", pusta, typeof pusta);
+
+ var bool = true
+ console.log("zmienna bool(bool):", bool, typeof bool);
+
+ var liczba = 1234;
+console.log('zmienna liczba (Number):', liczba, 
+typeof liczba);
+
+var liczba2 = 99.45;
+console.log('zmienna liczba (Number):', liczba2, 
+typeof liczba2);
+
+var napis = "jakiś napisz";
+console.log('zmienna napis (String):', napis, 
+typeof napis);
+
+var und;
+console.log('zmienna und (undefined):', und, 
+typeof und);
+
+var pusta = null;
+console.log('zmienna pusta (null):', pusta, 
+typeof pusta);
+
+var bool = true;
+console.log('zmienna bool (bool):', bool, 
+typeof bool);
+
+var arr = ['Napis', 123, null, true, '', 123.66, 'tekst']; //tablica array
+
+console.log('Tablica arr', arr, typeof arr);
+
+var arr2 = [
+[1, 'Michał', 29],
+[2, 'Ania', 21],
+[3, 'Ela', 34]
+];
+
+console.log('Tablica arr2', arr2, typeof arr2);
+
+console.log('Czy arr jest tablica:', Array.isArray(arr));
+//console.log('Czy obj jest tablica:', Array.isArray(obj));
+
+var a = 12
+var b = 3 
+
+console.log(a)
+console.log(b)
+
+a = 14 
+console.log(a)
+console.log(b)
+
+    </script>
+</body>
+</html>
